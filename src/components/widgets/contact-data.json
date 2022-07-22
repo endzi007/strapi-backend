@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widgets_contact_data",
+  "info": {
+    "displayName": "contact_data",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "map_embed_code": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

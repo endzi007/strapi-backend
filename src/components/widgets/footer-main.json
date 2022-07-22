@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_widgets_footer_mains",
+  "info": {
+    "displayName": "footer_main",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "building-blocks.social-links"
+    }
+  }
+}

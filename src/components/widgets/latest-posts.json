@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widgets_latest_posts",
+  "info": {
+    "displayName": "latest_posts",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "somedata": {
+      "type": "json"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

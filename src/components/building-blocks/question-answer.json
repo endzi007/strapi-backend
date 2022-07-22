@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_building_blocks_question_answers",
+  "info": {
+    "displayName": "question_answer",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "answer": {
+      "type": "richtext"
+    },
+    "question": {
+      "type": "string"
+    }
+  }
+}

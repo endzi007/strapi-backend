@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_widgets_split_image_text_sections",
+  "info": {
+    "displayName": "split_image_text_section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "section_heading": {
+      "type": "string"
+    },
+    "section_title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

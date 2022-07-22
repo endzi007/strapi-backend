@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_building_blocks_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

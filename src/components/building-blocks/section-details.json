@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_building_blocks_section_details",
+  "info": {
+    "displayName": "section_details",
+    "icon": "user-secret",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_heading": {
+      "type": "string"
+    },
+    "small_heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "section"
+    }
+  }
+}

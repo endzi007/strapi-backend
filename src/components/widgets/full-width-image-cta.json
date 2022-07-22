@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_widgets_full_width_image_ctas",
+  "info": {
+    "displayName": "full_width_cta",
+    "icon": "text-width",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "building-blocks.link"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "building-blocks.section-details"
+    }
+  }
+}

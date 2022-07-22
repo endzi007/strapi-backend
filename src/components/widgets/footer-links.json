@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widgets_footer_links",
+  "info": {
+    "displayName": "footer_links",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "building-blocks.link"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

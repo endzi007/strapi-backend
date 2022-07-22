@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "widget_area": {
+      "type": "dynamiczone",
+      "components": [
+        "widgets.contact-data",
+        "widgets.latest-posts",
+        "widgets.services-list",
+        "widgets.footer-links",
+        "widgets.footer-main"
+      ]
+    },
+    "copyright_text": {
+      "type": "richtext"
+    }
+  }
+}

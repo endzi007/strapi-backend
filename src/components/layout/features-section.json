@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_features_sections",
+  "info": {
+    "displayName": "features_section",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widgets.single-service"
+    },
+    "section_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "building-blocks.section-details"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_widgets_services_lists",
+  "info": {
+    "displayName": "services_list",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

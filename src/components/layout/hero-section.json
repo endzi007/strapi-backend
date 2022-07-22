@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Page title",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "default": "This is some description",
+      "required": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "building-blocks.link"
+    },
+    "split_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widgets.split-image-text-section"
+    }
+  }
+}

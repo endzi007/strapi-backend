@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_building_blocks_input_fields",
+  "info": {
+    "displayName": "input_field",
+    "icon": "envelope-open-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

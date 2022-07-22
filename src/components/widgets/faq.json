@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_widgets_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question_answer": {
+      "displayName": "question_answer",
+      "type": "component",
+      "repeatable": true,
+      "component": "building-blocks.question-answer"
+    },
+    "section_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "building-blocks.section-details"
+    }
+  }
+}
