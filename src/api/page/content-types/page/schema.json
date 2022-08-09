@@ -15,6 +15,7 @@
     "content": {
       "type": "dynamiczone",
       "components": [
+        "building-blocks.content",
         "building-blocks.input-field",
         "building-blocks.section-details",
         "layout.features-section",
@@ -25,8 +26,7 @@
         "widgets.latest-posts",
         "widgets.projects-section",
         "widgets.services-list",
-        "widgets.split-image-text-section",
-        "building-blocks.content"
+        "widgets.split-image-text-section"
       ]
     },
     "Title": {
@@ -38,6 +38,17 @@
     "slug": {
       "type": "uid",
       "targetField": "Title"
+    },
+    "sidebar": {
+      "type": "dynamiczone",
+      "components": [
+        "building-blocks.social-links",
+        "widgets.contact-data",
+        "widgets.footer-links",
+        "widgets.latest-posts",
+        "widgets.projects-section",
+        "widgets.services-list"
+      ]
     }
   }
 }

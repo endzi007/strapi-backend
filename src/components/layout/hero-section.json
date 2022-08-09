@@ -7,16 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "default": "Page title",
-      "required": true
-    },
-    "description": {
-      "type": "richtext",
-      "default": "This is some description",
-      "required": true
-    },
     "cover_image": {
       "type": "media",
       "multiple": false,
@@ -30,10 +20,10 @@
       "repeatable": true,
       "component": "building-blocks.link"
     },
-    "split_section": {
+    "section_details": {
       "type": "component",
       "repeatable": false,
-      "component": "widgets.split-image-text-section"
+      "component": "building-blocks.section-details"
     }
   }
 }

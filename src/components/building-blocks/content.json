@@ -2,12 +2,20 @@
   "collectionName": "components_building_blocks_contents",
   "info": {
     "displayName": "content",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
       "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "full_width",
+        "split_section"
+      ]
     }
   }
 }
